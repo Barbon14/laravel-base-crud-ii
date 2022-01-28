@@ -11,7 +11,7 @@
                 <a href="{{ route('show', $comic -> id) }}">
                     {{ $comic -> title }}
                 </a>
-                - {{ $comic -> relase_date }}
+                - {{ $comic -> release_date }}
             </li>
         @endforeach
     </ul>

@@ -11,16 +11,16 @@ class HomeController extends Controller
     public function home()
     {
 
-        $movies = Comic::all();
+        $comics = Comic::all();
 
-        return view('pages.home', compact('movies'));
+        return view('pages.home', compact('comics'));
     }
 
     public function show($id)
     {
 
-        $movie = Comic::findOrFail($id);
+        $comic = Comic::findOrFail($id);
 
-        return view('pages.show', compact('movie'));
+        return view('pages.show', compact('comic'));
     } 
 }

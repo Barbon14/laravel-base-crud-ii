@@ -9,7 +9,7 @@
         {{ $comic->subtitle }}
     </h3>
     <h4>
-        {{ $comic->relase_date }}
+        {{ $comic->release_date }}
     </h4>
     <h4>
         Numero di pagine: {{ $comic->pages }}
