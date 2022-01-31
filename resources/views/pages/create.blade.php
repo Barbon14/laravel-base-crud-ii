@@ -30,4 +30,8 @@
         <input type="submit" value="CREATE">
     </form>
 
+    <h3>
+        <a href="{{ route('home') }}">Back To List</a>
+    </h3>
+
 @endsection

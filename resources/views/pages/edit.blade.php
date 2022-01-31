@@ -28,4 +28,8 @@
         <input type="number" name="pages" placeholder="pages" value="{{ $comic -> pages }}"><br>
         <input type="submit" value="UPDATE">
     </form>
+
+    <h3>
+        <a href="{{ route('home') }}">Back To List</a>
+    </h3>
 @endsection

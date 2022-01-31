@@ -14,5 +14,9 @@
         <h4>
             Numero di pagine: {{ $comic->pages }}
         </h4>
+
+        <h3>
+            <a href="{{ route('home') }}">Back To List</a>
+        </h3>
     </section>
 @endsection
