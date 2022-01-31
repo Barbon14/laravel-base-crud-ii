@@ -14,15 +14,15 @@
         </div>
     @endif
 
-    <form action="" method="POST">
+    <form action="{{ route('store') }}" method="POST">
 
         @method("POST")
         @csrf
 
         <label for="title">Title:</label>
         <input type="text" name="title" placeholder="title"><br>
-        <label for="subtitle">Subtitle:</label>
-        <input type="text" name="subtitle" placeholder="subtitle"><br>
+        <label for="author">Author:</label>
+        <input type="text" name="author" placeholder="author"><br>
         <label for="release_date">Release date:</label>
         <input type="date" name="release_date"><br>
         <label for="title">Pages Number:</label>

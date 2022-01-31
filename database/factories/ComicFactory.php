@@ -9,7 +9,7 @@ $factory->define(Comic::class, function (Faker $faker) {
     return [
 
         'title' => $faker -> words(3, true),
-        'author' => $faker -> words(5, true),
+        'author' => $faker -> name(),
         'release_date' => $faker -> date(),
         'pages' => $faker -> numberBetween(50,500)
     ];
