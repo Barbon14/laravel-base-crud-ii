@@ -27,7 +27,7 @@
         <input type="date" name="release_date"><br>
         <label for="title">Pages Number:</label>
         <input type="number" name="pages" placeholder="pages"><br>
-        <input type="submit" value="UPDATE">
+        <input type="submit" value="CREATE">
     </form>
 
 @endsection

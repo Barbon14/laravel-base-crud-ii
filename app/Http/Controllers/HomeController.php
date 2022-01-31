@@ -66,4 +66,13 @@ class HomeController extends Controller
 
         return redirect()->route('show', $comic->id);
     }
+
+    public function delete($id)
+    {
+        $comic = Comic::findOrFail($id);
+
+        $comic -> delete();
+
+        return redirect() -> route('home');
+    }
 }

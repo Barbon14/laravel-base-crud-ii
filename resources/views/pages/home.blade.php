@@ -18,6 +18,7 @@
                 </a>
                 - {{ $comic -> release_date }}
                 - <a href="{{ route('edit', $comic -> id) }}">Edit</a>
+                - <a href="{{ route('delete', $comic -> id) }}">Delete</a>
             </li>
         @endforeach
     </ul>
